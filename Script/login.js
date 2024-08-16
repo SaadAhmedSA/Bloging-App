@@ -10,8 +10,8 @@ form.addEventListener("submit",(event)=>{
     .then((userCredential) => {
 
       const user = userCredential.user;
-       console.log(user);
-    // window.location="dashboard.html"
+       console.log(user.uid);
+    window.location="index.html"
     })
     .catch((error) => {
 
