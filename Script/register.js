@@ -22,7 +22,7 @@ form.addEventListener("submit",(event)=>{
     })
     .catch((error) => {
       const errorMessage = error.message;
-      console.log(errorMessage);
+     alert(errorMessage);
       
     });
      email.value=""
