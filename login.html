@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+       
+        #main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           height: 100vh;
+        }
+        #content{
+        width: 300px;
+        max-width: 500px;
+          background-color: antiquewhite;
+            padding: 25px;
+        }
+        h1 {
+            font-size: 50px;
+          text-align: center;
+        } 
+        input{
+            width: 100%;
+            height: 35px;
+            border: 2px solid;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            height: 40px;
+            width: 40%;
+            background-color: rgb(5, 5, 5);
+            color: white;
+            padding: 10px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    
+   <div id="main">
+    
+    <div id="content">
+        <h1>Sign-in</h1>
+    <form id="form">
+        
+        <p>Enter Email:</p>
+        <input type="text" id="email" required>
+        <p>Enter Password:</p>
+        <input type="text" id="Password" required><br> <br>
+        <button type="submit" >login</button>
+        <button onclick="window.location='./Register.html' ">Not A User</button>
+      
+    </form>
+    </div>
+
+   </div>
+    
+
+
+
+
+   <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+   <script type="module" src="./Script/login.js"></script>
+</body>
+</html>
